@@ -1,0 +1,129 @@
+@media (max-width: 575.98px){
+    #nav_main{
+        border: none;
+    }
+    #nav_main ul{
+        background: #222222;
+    }
+    #nav_main img {
+        width: 70px;
+      }
+      #nav_main .navbar-toggler-icon{
+        color: #fff;
+      }
+      
+      #nav_main .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    #nav_main .nav-item a{
+        padding:5px 5px;
+        font-size: 14px;
+    }
+    #nav_main .nav-item a:hover:after{
+       
+        width: 4px;
+        height: 1px;
+        bottom:-3px;
+        left: 19px;
+        
+    }
+
+
+    /* banner starts  */
+    #banner_part .left_arrow{
+        height: 40px;
+        width: 40px;
+        text-align: center;
+    }
+    #banner_part .right_arrow{
+      
+        height: 40px;
+        width: 40px;
+    
+    }
+
+
+    
+#banner_part .item .top{
+    line-height: 30px;
+    font-size: 25px;
+}
+#banner_part .item  .mid{
+    font-size: 30px;
+    
+}
+#banner_part .item p{
+    width: 255px;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-size: 12px;
+}
+#banner_part .item{
+   padding: 145px 0 120px 0;
+  
+}
+
+#banner_part .item a{
+    padding: 12px 18px;
+    margin-left: 10px;
+    font-size: 12px;
+    }
+/* about part */
+#about_part .about_heading h2{
+    font-size: 18px;
+}
+#about_part .about_heading p{
+    width: 246px;
+    margin: 0 auto;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+#about_part .item .top_text p::after{
+    display: none;
+}
+#about_part .item .top_text p::before{
+    display: none;
+}
+#about_part .item .med_text p::after{
+    display: none;
+}
+#about_part .item .med_text p::before{
+    display: none;
+}
+#about_part .item .bot_text p::after{
+    display: none; 
+}
+#about_part .item .bot_text p::before{
+    display: none; 
+}
+#about_part .item .end_text p::before{
+    display: none; 
+}
+#about_part .item .end_text p::after{
+    display: none; 
+}
+
+/* protfolio */
+
+#protfolio_part .protfolio_heading p {
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+
+
+  /* service part */
+  #service_part .service_heading p{
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  #service_part .line{
+    /* height: 1200px;
+     */
+     display: none;
+}
+}
